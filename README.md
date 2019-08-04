@@ -21,7 +21,7 @@
 3. 浏览器从发送页面请求,到页面展示的整个流程
 
 ## reference
-[前端面试题及答案汇总](https://muyiy.vip/question/)
-[前端面试题及答案汇总 (github地址)](https://github.com/Advanced-Frontend/Daily-Interview-Question/blob/master/datum/summary.md)
-[高级前端进阶](https://muyiy.vip/blog/)
-[高级前端进阶 (gtihub地址)](https://github.com/yygmind/blog)
+1. [前端面试题及答案汇总](https://muyiy.vip/question/)
+2. [前端面试题及答案汇总 (github地址)](https://github.com/Advanced-Frontend/Daily-Interview-Question/blob/master/datum/summary.md)
+3. [高级前端进阶](https://muyiy.vip/blog/)
+4. [高级前端进阶 (gtihub地址)](https://github.com/yygmind/blog)
