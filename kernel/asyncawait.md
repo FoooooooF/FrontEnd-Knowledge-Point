@@ -219,3 +219,4 @@ await 的含义为等待，也就是 async 函数需要等待 await 后的函数
 
 # reference
 [浏览器的Tasks、microtasks、 queues 和 schedules](https://github.com/sisterAn/blog/issues/21)
+[HTML系列：macrotask和microtask](https://zhuanlan.zhihu.com/p/24460769)

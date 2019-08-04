@@ -1,4 +1,5 @@
 # Javascript Knowledge Point
+![知识点](./assets/point.png)
 ## js
 1. 防抖与节流
 2. 深度优先遍历和广度优先遍历
