@@ -6,5 +6,5 @@
 [视频地址](https://www.bilibili.com/video/av37759434/)
 
 # reference
-[并发模型与事件循环 MDN](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/EventLoop)
-[HTML Living Standard](https://html.spec.whatwg.org/multipage/webappapis.html#event-loops)
+1. [并发模型与事件循环 MDN](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/EventLoop)
+2. [HTML Living Standard](https://html.spec.whatwg.org/multipage/webappapis.html#event-loops)
