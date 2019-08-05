@@ -1,11 +1,11 @@
-# Javascript Knowledge Point
+# FrontEnd Knowledge Point
 ![知识点](./assets/point.png)
 ## js
-1. 防抖与节流
-2. 深度优先遍历和广度优先遍历
-3. 高阶函数
-4. 数组转树形结构
-5. js原型链
+1. 防抖与节流(./js/防抖节流.md)
+2. 深度优先遍历和广度优先遍历(./js/遍历.md)
+3. 高阶函数(./js/高阶函数.md)
+4. 数组转树形结构(./js/树形结构.md)
+5. js原型链(./js/原型链.md)
 ## html
 ## css
 1. [BFC、IFC、GFC 和 FFC](./css/BFC.md) 
