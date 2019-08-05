@@ -163,7 +163,7 @@ Markdown的使用者：
 + Reddit
 + 等等
 
-#### 6. 尝试一下
+#### 5. 尝试一下
 + **Chrome**下的插件诸如`stackedit`与`markdown-here`等非常方便，也不用担心平台受限。
 + **在线**的dillinger.io评价也不错   
 + **Windowns**下的MarkdownPad也用过，不过免费版的体验不是很好。    
