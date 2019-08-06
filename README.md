@@ -1,4 +1,5 @@
 # FrontEnd Knowledge Point
+    前端知识点！！！都是送分题！！！
 ![知识点](./assets/point.png)
 ## js
 1. [防抖与节流](./js/防抖节流.md)
@@ -10,8 +11,7 @@
 ## css
 1. [BFC、IFC、GFC 和 FFC](./css/BFC.md) 
 ## 浏览器内核
-1. [js运行原理](./kernel/js运行原理.md)
-2. [js任务队列（macrotasks，microtasks）](./kernel/event_loop.md)
+1. [js 运行原理及 event loop](./kernel/event_loop.md)
 ## react
 1. [react快速入门心得](./react/快速入门.md)
 ## vue
