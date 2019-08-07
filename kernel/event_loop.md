@@ -67,7 +67,7 @@
 ![evnet loop](./assets/event.png)
 
 ## 3. event loop Microtasks、Macrotasks（task）
-小哥的视屏缺少了 Microtasks、Macrotasks的部分，再在此给他补上！
+小哥的视屏缺少了 Microtasks、Macrotasks的部分，在此给他补上！
 ### 3.1 event loop
 JS主线程不断的循环往复的从任务队列中读取任务，执行任务，其中运行机制称为事件循环（event loop）。
 
