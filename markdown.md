@@ -180,14 +180,18 @@ Markdown的使用者：
 以上基本是所有traditonal markdown的语法。
 
 ### 其它：
-1. 列表的使用(非traditonal markdown)：
+1. 表格的使用(非traditonal markdown)：
 
 用`|`表示表格纵向边界，表头和表内容用`-`隔开，并可用`:`进行对齐设置，两边都有`:`则表示居中，若不加`:`则默认左对齐。
-
+```markdown
 |代码库                              |链接                                |
 |:------------------------------------:|------------------------------------|
-|MarkDown                              |[https://github.com/younghz/Markdown](https://github.com/younghz/Markdown "Markdown")|
-|MarkDownCopy                              |[https://github.com/younghz/Markdown](https://github.com/younghz/Markdown "Markdown")|
+|前端知识点                             |[https://github.com/FoooooooF/FrontEnd-Knowledge-Point](https://github.com/FoooooooF/FrontEnd-Knowledge-Point "Markdown")|
+```
+|代码库                              |链接                                |
+|:------------------------------------:|------------------------------------|
+|前端知识点                             |[https://github.com/FoooooooF/FrontEnd-Knowledge-Point](https://github.com/FoooooooF/FrontEnd-Knowledge-Point "Markdown")|
+
 2. emoji
    
    Markdown语法支持添加 **emoji** 表情，输入不同的符号码（两个冒号包围的字符）可以显示出不同的表情。
@@ -196,21 +200,7 @@ Markdown的使用者：
    
    例如：`:star:`-> :star: ，`:fish:`-> :fish:，`:dog:`-> :dog:
 
-- 常用emoji
-
-| :bowtie: `:bowtie:` | :smile: `:smile:` | :laughing: `:laughing:` |
-| :- | :- | :- |
-| :blush: `:blush:` | :smiley: `:smiley:` | :relaxed: `:relaxed:` |
-| :smirk: `:smirk:` | :heart_eyes: `:heart_eyes:` | :kissing_heart: `:kissing_heart:` |
-| :kissing_closed_eyes: `:kissing_closed_eyes:` | :flushed: `:flushed:` | :relieved: `:relieved:` |
-| :satisfied: `:satisfied:` | :grin: `:grin:` | :wink: `:wink:` |
-| :stuck_out_tongue_winking_eye: `:stuck_out_tongue_winking_eye:` | :star:`:star:` |:grinning: `:grinning:` |
-| :kissing: `:kissing:` | :kissing_smiling_eyes: `:kissing_smiling_eyes:` | :stuck_out_tongue:`:stuck_out_tongue:` |
-| :sleeping: `:sleeping:` | :worried: `:worried:` | :frowning: `:frowning:` |
-| :anguished: `:anguished:` | :open_mouth: `:open_mouth:` | :grimacing: `:grimacing:` |
-| :confused: `:confused:` | :hushed: `:hushed:` | :expressionless: `:expressionless:` |
 - [emoji 完整地址](https://github.com/zhouie/markdown-emoji)
-
 
 
 关于其它扩展语法可参见具体工具的使用说明。
