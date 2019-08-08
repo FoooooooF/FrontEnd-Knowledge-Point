@@ -59,7 +59,7 @@
 你答对了吗？这里涉及到Microtasks、Macrotasks、event loop 以及 JS 的异步运行机制。
 
 ## 2. js运行原理 
-首先补齐基础，来看一下js 引擎（如：V8）的运行原理，这位Robort小哥讲的非常好，运行过程都使用动画展现，过程非常生动，条理也很清楚，当然ppt也做的不错。
+首先补齐基础，来看一下js 引擎（如：V8）的运行原理，这位Philip Roberts小哥讲的非常好，运行过程都使用动画展现，过程非常生动，条理也很清楚，当然ppt也做的不错。
 这是B站上带英文字幕的版本
 [视频地址](https://www.bilibili.com/video/av37759434/)
 
@@ -271,6 +271,7 @@ func1().then(res => {
 ```
 await 的含义为等待，也就是 async 函数需要等待 await 后的函数执行完成并且有了返回结果（ Promise 对象）之后，才能继续执行下面的代码。await通过返回一个Promise对象来实现同步的效果。
 
+
 ## reference
 1. [浏览器的Tasks、microtasks、 queues 和 schedules](https://github.com/sisterAn/blog/issues/21)
 2. [HTML系列：macrotask和microtask](https://zhuanlan.zhihu.com/p/24460769)
@@ -278,3 +279,5 @@ await 的含义为等待，也就是 async 函数需要等待 await 后的函数
 4. [JavaScriptCore的MacroTasks及MicroTasks源码解析](https://zhuanlan.zhihu.com/p/63912129)
 5. [HTML Living Standard](https://html.spec.whatwg.org/multipage/webappapis.html#event-loops)
 6. [并发模型与事件循环 MDN](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/EventLoop)
+7. [拆解JavaScript中的异步模式](https://zhuanlan.zhihu.com/p/67815990)
+8. [Tasks, microtasks, queues and schedules :star:](https://jakearchibald.com/2015/tasks-microtasks-queues-and-schedules/)
