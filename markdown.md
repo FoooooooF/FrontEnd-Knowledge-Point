@@ -180,7 +180,7 @@ Markdown的使用者：
 以上基本是所有traditonal markdown的语法。
 
 ### 其它：
-列表的使用(非traditonal markdown)：
+1. 列表的使用(非traditonal markdown)：
 
 用`|`表示表格纵向边界，表头和表内容用`-`隔开，并可用`:`进行对齐设置，两边都有`:`则表示居中，若不加`:`则默认左对齐。
 
@@ -188,6 +188,10 @@ Markdown的使用者：
 |:------------------------------------:|------------------------------------|
 |MarkDown                              |[https://github.com/younghz/Markdown](https://github.com/younghz/Markdown "Markdown")|
 |MarkDownCopy                              |[https://github.com/younghz/Markdown](https://github.com/younghz/Markdown "Markdown")|
+2. emoji
+
+- [emoji 代码](https://github.com/zhouie/markdown-emoji)
+
 
 
 关于其它扩展语法可参见具体工具的使用说明。
