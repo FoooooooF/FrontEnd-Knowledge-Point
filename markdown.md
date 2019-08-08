@@ -189,12 +189,13 @@ Markdown的使用者：
 |MarkDown                              |[https://github.com/younghz/Markdown](https://github.com/younghz/Markdown "Markdown")|
 |MarkDownCopy                              |[https://github.com/younghz/Markdown](https://github.com/younghz/Markdown "Markdown")|
 2. emoji
+   
    Markdown语法支持添加 **emoji** 表情，输入不同的符号码（两个冒号包围的字符）可以显示出不同的表情。
 
    表情的英语单词前后各加一个英文冒号 `:`，就可以获得相应的表情
    
    例如：`:star:`-> :star: ，`:fish:`-> :fish:，`:dog:`-> :dog:
-   
+
 - 常用emoji
 
 | :bowtie: `:bowtie:` | :smile: `:smile:` | :laughing: `:laughing:` |
