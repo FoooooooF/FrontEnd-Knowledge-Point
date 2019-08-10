@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div id="s1">s1
+        <div id="s2">s2</div>
+    </div>
+    <script>
+        //冒泡
+        // s1.addEventListener("click",function(e){
+        //     console.log("s1 冒泡事件");
+        // },false);
+        // s2.addEventListener("click",function(e){
+        //     console.log("s2 冒泡事件");
+        // },false);
+        //捕获
+        // s1.addEventListener("click",function(e){
+        //     console.log("s1 冒泡事件");
+        // },true);
+        // s2.addEventListener("click",function(e){
+        //     console.log("s2 冒泡事件");
+        // },true);
+        
+        // 捕获事件和冒泡事件同事注册
+        s1.addEventListener("click",function(e){
+                console.log("s1 冒泡事件");         
+        },false);
+        s2.addEventListener("click",function(e){
+                console.log("s2 冒泡事件");
+        },false);
+                
+        s1.addEventListener("click",function(e){
+                console.log("s1 捕获事件");
+        },true);
+                
+        s2.addEventListener("click",function(e){
+                console.log("s2 捕获事件");
+        },true);
+    </script>
+</body>
+</html>
