@@ -1,4 +1,4 @@
-# 自定义标签的v-model指令
+# vue自定义标签的v-model指令
 ## 问题
 >在 vue2 中对表单控件有着良好的双向数据绑定机制，但是对于要特定实现某些功能的输入时，我们就不得不使用到 contenteditable="true" 的 div ，而在这个 div 上是使用 v-model 是没有效果的。那么问题就来了，输入是非常需要双向绑定的，这里的双向数据绑定该如何实现？
 ## 在组件上使用 v-model(来自[官网](https://cn.vuejs.org/v2/guide/components.html#%E5%9C%A8%E7%BB%84%E4%BB%B6%E4%B8%8A%E4%BD%BF%E7%94%A8-v-model))
