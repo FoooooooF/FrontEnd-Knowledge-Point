@@ -10,13 +10,14 @@
 [视频地址](https://www.bilibili.com/video/av37759434/)
 
 这个是核心思想的截图
+
 ![evnet loop](./assets/event.png)
 ### Microtask、Macrotask/Task
 Philip Roberts视频中缺少了任务队列(task queue)区分为Microtask（微任务）、Macrotask/Task（宏任务）的部分，这里需要看第二份资料，详细的介绍了Microtask、Macrotask/Task 的运行过程，且分析了浏览器的执行差异,[Jake Archibald英文博客地址](https://jakearchibald.com/2015/tasks-microtasks-queues-and-schedules/)。
 
+![microtask](./assets/taskblog.png)
 看博客注意事项
 - 博客内有带执行步骤的动画，一定要亲自点一下:star:
-  
 - 博客中将Macrotask叫做Task；
 - 分析浏览器差异的部分基本可以略过了，随着版本更新，这些差异基本都被修补了。我们只要看博客中关于chrome浏览器的正确输出结果就可以了
 
