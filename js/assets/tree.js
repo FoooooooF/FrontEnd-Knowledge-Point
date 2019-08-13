@@ -49,7 +49,7 @@ function convert(arr){
             res.push(item); 
             // continue;
         }
-        if(item.parentId in map){  //
+        if(item.parentId in map){  // in es6语法检测对象中是否有此key
             let parent=map[item.parentId];
             parent.children=parent.children||[];
             parent.children.push(item);
