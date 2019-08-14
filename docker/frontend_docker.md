@@ -13,3 +13,5 @@ docker 是一个CS模式的服务
 
 ## reference
 1. [Docker — 从入门到实践](https://docker_practice.gitee.io/image/list.html)
+2. [基于 Docker 打造前端持续集成开发环境](https://zhuanlan.zhihu.com/p/37961402)
+3. [阮一峰 持续集成CI](http://www.ruanyifeng.com/blog/2015/09/continuous-integration.html)
