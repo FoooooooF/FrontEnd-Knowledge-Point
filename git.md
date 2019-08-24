@@ -56,6 +56,12 @@ Git 常用操作
     git commit -m "rebase" #提交到stage
     git push  -u origin rebase # 提交到origin
 ```
+在master 分支和rebase 分支上分别前进commit,然后在 rebase分支上操作
+```
+    git rebase master
+```
+然后我的rebase分支合并了master分支上的修改,但是我的master分支分支上,并没有rebase分支上的修改.
+于是我不得不在master分支上进行了一次merge操作.
 
 ## reference
 [优雅的使用Git](https://www.zhihu.com/question/20866683/answer/720671116)
