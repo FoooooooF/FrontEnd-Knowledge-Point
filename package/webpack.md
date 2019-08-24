@@ -21,3 +21,6 @@
 - extract-text-webpack-plugin@next  抽离css样式文件
 - purifycss-webpack  删除不需要的css样式
 - copy-webpack-plugin  复制目录到输出目录
+
+## reference
+[webapck 中文文档](https://www.webpackjs.com/concepts/)
