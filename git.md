@@ -56,3 +56,6 @@ Git 常用操作
     git commit -m "rebase" #提交到stage
     git push  -u origin rebase # 提交到origin
 ```
+
+## reference
+[优雅的使用Git](https://www.zhihu.com/question/20866683/answer/720671116)
