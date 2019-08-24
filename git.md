@@ -50,3 +50,7 @@ Git 常用操作
 ```
 
 ## rebase 变基
+一次关于rebase的测试,新建rebase分支,并在rabase分支下对文件进行修改
+```bash
+    git checkout -b rebase #Switched to a new branch 'rebase'
+```
