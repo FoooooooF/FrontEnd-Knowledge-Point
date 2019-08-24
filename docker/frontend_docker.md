@@ -2,7 +2,7 @@
 ![落魄的前端开发](./assets/frontend.png)
 <!-- ![jquery](./assets/jq.jpg) -->
 ## 需求
-1. 前端项目docker部署
+1. 前端项目docker部署 CI/CD
 2. 快速搭建docker开发环境
 3. docker node微服务开发部署 
 ## 心得
@@ -15,3 +15,4 @@ docker 是一个CS模式的服务
 1. [Docker — 从入门到实践](https://docker_practice.gitee.io/image/list.html)
 2. [基于 Docker 打造前端持续集成开发环境](https://zhuanlan.zhihu.com/p/37961402)
 3. [阮一峰 持续集成CI](http://www.ruanyifeng.com/blog/2015/09/continuous-integration.html)
+4. [jenkins+docker+nodejs项目的自动部署环境(案例)](https://blog.csdn.net/swebin/article/details/70167944)

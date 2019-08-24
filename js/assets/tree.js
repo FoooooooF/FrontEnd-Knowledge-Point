@@ -56,6 +56,7 @@ function convert(arr){
         }
     }
     return res;
+    
 }
 
 const result = convert(list);

@@ -5,6 +5,7 @@ Git 常用操作
 ```bash
     git config --global user.name "youtname"
     git config --global user.email "youremeil"
+    git config --lsit  #查看配置信息
 ```
 ## 2. 本地创建仓库并连接远程仓库
 ```bash
@@ -15,7 +16,7 @@ Git 常用操作
     git add README.md  #本地仓库添加 readme.md
     git commit -m "first commit"  #本地仓库提交修改
     git remote add origin https://git.youradress.git # 设置远程仓库地址
-    git push -u origin master # 推送本地分支 到远程的master分支
+    git push -u origin master # 推送本地分支 到远程的master分支  并将当前分支与远程master分支进行绑定 -u
 ```
 
 ## 3. 本地已有仓库连接远程仓库
@@ -47,3 +48,5 @@ Git 常用操作
 ```bash
     git merge targetbranch #将当前分支与targetbranch 分支进行合并
 ```
+
+## rebase 变基
