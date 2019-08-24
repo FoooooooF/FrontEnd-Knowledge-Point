@@ -50,7 +50,9 @@ Git 常用操作
 ```
 
 ## rebase 变基
-一次关于rebase的测试,新建rebase分支,并在rabase分支下对文件进行修改
+一次关于rebase的测试,新建rebase分支,并在rabase分支下对文件进行修改,进行提交
 ```bash
     git checkout -b rebase #Switched to a new branch 'rebase'
+    git commit -m "rebase" #提交到stage
+    git push  -u origin rebase # 提交到origin
 ```
