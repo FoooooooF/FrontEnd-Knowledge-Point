@@ -76,6 +76,7 @@ target节点 往 document 方向，冒泡前进，遇到注册的冒泡事件立
 总结下就是:
 - 对于非target节点则先执行捕获在执行冒泡
 - 对于target节点则是先执行先注册的事件，无论冒泡还是捕获
+  
 ```html
 <div id="s1">s1
     <div id="s2">s2</div>
