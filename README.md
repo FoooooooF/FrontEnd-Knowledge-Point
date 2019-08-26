@@ -1,6 +1,6 @@
 # FrontEnd Knowledge Point
-    前端知识点！！！记住了啊！！！都是拿分题！！！  
-    [博客地址](https://fooooooof.github.io/FrontEnd-Knowledge-Point/)
+>前端知识点！！！记住了啊！！！都是拿分题！！！
+[博客地址](https://fooooooof.github.io/FrontEnd-Knowledge-Point/)
 
 ![知识点](./assets/point.png)
 
