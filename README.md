@@ -1,5 +1,6 @@
 # FrontEnd Knowledge Point
-    前端知识点！！！记住了啊！！！都是拿分题！！！
+    前端知识点！！！记住了啊！！！都是拿分题！！！  
+    [博客地址](https://fooooooof.github.io/FrontEnd-Knowledge-Point/)
 
 ![知识点](./assets/point.png)
 
@@ -30,7 +31,7 @@
 ## 网络
 1. [缓存浏览器缓存 服务端协商缓存和强制缓存](./network/cache.md)
 2. https 通信过程
-3. 浏览器从发送页面请求,到页面展示的整个流程
+3. [浏览器从输入网址到显示页面](./network/when_open_url.md)
 
 ## docker
 1. [FrontEnd with Docker](./docker/frontend_docker.md)
