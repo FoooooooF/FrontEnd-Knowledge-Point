@@ -4,11 +4,12 @@
 ![知识点](./assets/point.png)
 
 ## js
-1. [防抖与节流](./js/防抖节流.md)
-2. [深度优先遍历和广度优先遍历](./js/遍历.md)
-3. [高阶函数](./js/高阶函数.md)
-4. [JS数组转树形结构](./js/树形结构.md)
-5. [JS原型链](./js/原型链.md)
+1. [防抖与节流](./js/throttle_debounce.md)
+2. [深度优先遍历和广度优先遍历](./js/traver.md)
+3. [高阶函数](./js/hight_function.md)
+4. [JS数组转树形结构](./js/tree.md)
+5. [JS原型链](./js/prototype.md)
+6. [事件的捕获与冒泡](./js/event.md)
 
 ## html
 
@@ -26,7 +27,7 @@
 2. [vue自定义组件上使用v-model指令](./vue/v_model.md)
 
 ## 网络
-1. [缓存浏览器缓存 服务端协商缓存和强制缓存](./network/缓存.md)
+1. [缓存浏览器缓存 服务端协商缓存和强制缓存](./network/cache.md)
 2. https 通信过程
 3. 浏览器从发送页面请求,到页面展示的整个流程
 
