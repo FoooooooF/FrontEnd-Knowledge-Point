@@ -16,6 +16,7 @@
 Philip Roberts视频中缺少了任务队列(task queue)区分为Microtask（微任务）、Macrotask/Task（宏任务）的部分，这里需要看第二份资料，详细的介绍了Microtask、Macrotask/Task 的运行过程，且分析了浏览器的执行差异,[Jake Archibald英文博客地址](https://jakearchibald.com/2015/tasks-microtasks-queues-and-schedules/)。
 
 ![microtask](./assets/taskblog.png)
+
 看博客注意事项
 - 博客内有带执行步骤的动画，一定要亲自点一下:star:
 - 博客中将Macrotask叫做Task；
