@@ -22,7 +22,8 @@ Philip Roberts视频中缺少了任务队列(task queue)区分为Microtask（微
 - 博客中将Macrotask叫做Task；
 - 分析浏览器差异的部分基本可以略过了，随着版本更新，这些差异基本都被修补了。我们只要看博客中关于chrome浏览器的正确输出结果就可以了
 
-Microtask和Macrotask所包含的api：
+Microtask和Macrotask所包含的api：  
+
     Microtask
     - process.nextTick
     - promise
