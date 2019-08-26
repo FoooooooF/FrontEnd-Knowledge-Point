@@ -9,13 +9,13 @@
 3. [高阶函数](./js/高阶函数.md)
 4. [JS数组转树形结构](./js/树形结构.md)
 5. [JS原型链](./js/原型链.md)
-## html
+<!-- ## html -->
 ## css
 1. [BFC、IFC、GFC 和 FFC](./css/BFC.md) 
 ## 浏览器内核
 1. [js 运行原理及 event loop](./kernel/event_loop.md)
 ## react
-1. [react快速入门心得](./react/快速入门.md)
+1. [react快速入门心得](./react/react1.md)
 ## vue
 1. [vue style scoped 原理](./vue/style_scoped.md)
 2. [vue自定义组件上使用v-model指令](./vue/v_model.md)
