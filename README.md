@@ -1,6 +1,8 @@
 # FrontEnd Knowledge Point
     前端知识点！！！记住了啊！！！都是拿分题！！！
+
 ![知识点](./assets/point.png)
+
 ## js
 1. [防抖与节流](./js/防抖节流.md)
 2. [深度优先遍历和广度优先遍历](./js/遍历.md)
