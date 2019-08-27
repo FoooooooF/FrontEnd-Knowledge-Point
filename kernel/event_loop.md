@@ -2,7 +2,7 @@
 针对以下面试题的一次强化学习（敲黑板！！）
 > 面试题：setTimeout、Promise、Async/Await 的区别
 
-## 2. 基础知识
+## 1. 基础知识
 需要先看懂这两份资料，他们会让你构建一个完整的从 上下文执行栈，Event Loop,任务队列(task queue)，再到Microtask（微任务）、Macrotask/Task（宏任务）知识体系。看完这个来解决一些setTimeout,pormsie,async 的执行先后问题，简直都是毛毛雨！
 ### js运行原理 
 首先补齐基础，来看一下js 引擎（如：V8）的运行原理，这位Philip Roberts小哥讲的非常好，运行过程都使用动画展现，过程非常生动，条理也很清楚，当然ppt也做的不错。
@@ -13,7 +13,7 @@
 
 ![evnet loop](./assets/event.png)
 ### Microtask、Macrotask/Task
-Philip Roberts视频中缺少了任务队列(task queue)区分为Microtask（微任务）、Macrotask/Task（宏任务）的部分，这里需要看第二份资料，详细的介绍了Microtask、Macrotask/Task 的运行过程，且分析了浏览器的执行差异,[Jake Archibald英文博客地址](https://jakearchibald.com/2015/tasks-microtasks-queues-and-schedules/)。
+Philip Roberts视频中,缺少了任务队列(task queue)区分为Microtask（微任务）、Macrotask/Task（宏任务）的部分，这里需要看第二份资料，详细的介绍了Microtask、Macrotask/Task 的运行过程，且分析了浏览器的执行差异,[Jake Archibald英文博客地址](https://jakearchibald.com/2015/tasks-microtasks-queues-and-schedules/)。
 
 ![microtask](./assets/taskblog.png)
 
@@ -39,7 +39,7 @@ Microtask和Macrotask所包含的api：
   
 如果不想看英文博客，我在这里作一点简单的总结：
 1. 在执行上下文栈的同步任务执行完后；
-2. 首先执行Microtask队列，按照队列`先进先出`的原则，一次执行完所有Microtask队列任务；
+2. 首先执行Microtask队列，按照队列 `先进先出` 的原则，一次执行完所有Microtask队列任务；
 3. 然后执行Macrotask/Task队列，一次执行一个，一个执行完后，检测 Microtask是否为空；
 4. 为空则执行下一个Macrotask/Task；
 5. 不为空则执行Microtask
