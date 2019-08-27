@@ -96,9 +96,9 @@ Microtask和Macrotask所包含的api：
 ```
 答案：
 ```
+    await end
     then 1
     then 2
-    await end
 ```
 这时候是不是会感觉会轻松许多？
 
