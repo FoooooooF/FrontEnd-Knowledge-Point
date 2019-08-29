@@ -5,13 +5,14 @@
 ![知识点](./assets/point.png)
 
 ## js
-1. [防抖与节流](./js/throttle_debounce.md)
+1. [防抖与节流](https://github.com/FoooooooF/handmade_javascript/tree/master/method/throttle_debounce)
 2. [深度优先遍历和广度优先遍历](./js/traver.md)
 3. [高阶函数](./js/hight_function.md)
 4. [JS数组转树形结构](./js/tree.md)
 5. [JS原型链](./js/prototype.md)
 6. [事件的捕获与冒泡](./js/event.md)
 7. [抽象语法树](./js/ast.md)
+8. [无限无缝轮播图原理及实现](https://github.com/FoooooooF/handmade_javascript/tree/master/component/carousel)
 
 ## html
 
