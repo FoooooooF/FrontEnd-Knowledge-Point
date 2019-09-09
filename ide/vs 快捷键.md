@@ -64,3 +64,16 @@
     - 调试（逐过程）：`F10`； 
     - 设置断点：`F9`。
     - 查看引用：`F12` 
+
+
+## 关闭VS实时调试器
+
+本文链接：https://blog.csdn.net/wearegouest/article/details/5583875
+到注册表删除以下2个项目就可以了
+HKEY_LOCAL_MACHINE/SOFTWARE/Microsoft/Windows NT/CurrentVersion/AeDebug/Debugger
+
+HKEY_LOCAL_MACHINE/SOFTWARE/Microsoft/.NETFramework/DbgManagedDebugger
+
+
+删除后打开visual studio 2005，选工具－选项－调试－实时，把右面的三个选项的对勾都去掉就ok了
+如果没有看到调试那是因为你没有选择显示全部选项，打开工具－选项以后，在左下角有一个显示全部选项的选框，选上就ok

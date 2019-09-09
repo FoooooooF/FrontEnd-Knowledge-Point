@@ -63,5 +63,11 @@ Git 常用操作
 然后我的rebase分支合并了master分支上的修改,但是我的master分支分支上,并没有rebase分支上的修改.
 于是我不得不在master分支上进行了一次merge操作.
 
+<!-- 最近才进一个公司,感觉公司的版本管理很有问题,
+1. 版本中有一个dev分支(开发分支)和master分支(发布分支);
+2. 每一个开发人员从master分出一个开发分支
+3. 属性开发完成后 开发人员先自行合并到dev分支进行测试.
+4. 测试通过后,开发人员自行合并到master分支进行发布. -->
+
 ## reference
 [优雅的使用Git](https://www.zhihu.com/question/20866683/answer/720671116)

@@ -38,6 +38,7 @@ Disk Cache 也就是存储在硬盘中的缓存，读取速度慢点，但是什
 
 
 # reference
-1. [前端之浏览器缓存，一次搞定 ](https://juejin.im/post/5c417993f265da61285a6075)
-2. [web性能优化之：no-cache与must-revalidate深入探究](https://segmentfault.com/a/1190000007317481)
-3. [深入理解浏览器的缓存机制](https://www.jianshu.com/p/54cc04190252)
+1. [一文读懂前端缓存 :star:](https://juejin.im/post/5c22ee806fb9a049fb43b2c5?utm_source=gold_browser_extension)
+2. [前端之浏览器缓存，一次搞定 ](https://juejin.im/post/5c417993f265da61285a6075)
+3. [web性能优化之：no-cache与must-revalidate深入探究](https://segmentfault.com/a/1190000007317481)
+4. [深入理解浏览器的缓存机制](https://www.jianshu.com/p/54cc04190252)

@@ -4,7 +4,6 @@
 1. 每周更新2~3篇博客
 
 ### plan
-1. 轮播
 2. 防抖节流
 3. mathematics token jwt (json web token)
 4. vue-timeline(vue-时间线) vue-gesture(vue-手势)
