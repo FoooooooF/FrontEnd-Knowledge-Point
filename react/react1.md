@@ -25,7 +25,15 @@
     <input onClick={this.fn.bind(this)} />
    ```
 4. jsx 语法要求html标签都必须闭合，且要注意HTML中为换行和空格问题，最好用"()"将HTML包起来 
-
+## 一些概念
+- 函数组件和class组件
+- 受控表单和非受控表单
+- jsx
+## 生命周期
+完整版
+![img](./assets/react01.png)
+常用版
+![img](./assets/react02.png)
    
 ## 优点
 1. 天然的基于class的组件化开发
@@ -33,3 +41,13 @@
 
 ## 缺点
 1. 对比vue，感觉router 和 redux确实没有vue-router和vuex好用！
+
+## 术语
+CDN 代表内容分发网络（Content Delivery Network）。CDN 会通过一个遍布全球的服务器网络来分发缓存的静态内容。
+ES6, ES2015, ES2016 等
+这些首字母缩写都是指 ECMAScript 语言规范标准的最新版本，JavaScript 语言是此标准的一个实现。其中 ES6 版本（也称为 ES2015）包括对前面版本的许多补充，例如：箭头函数、class、模板字面量、let 和 const 语句。可以在这里了解此规范特定版本的详细信息。
+
+
+## 参考
+[react 中文文档](https://zh-hans.reactjs.org/docs/getting-started.html)
+[react 生命周期](http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/)

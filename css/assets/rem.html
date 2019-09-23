@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>bootstrap</title>
+    <style>
+        html {
+            font-size: 14px;
+        }
+
+        h1 {
+            font-size: 1.2rem;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>响应式布局</h1>
+    <script>
+        const doc = window.document // 文档对象
+        const docEl = doc.documentElement // 文档对象元素
+
+        // 根据视窗宽度，设置根字体大小
+        const refreshRem = () => {
+            const rem = docEl.getBoundingClientRect().width / 10
+            docEl.style.fontSize = rem + 'px'
+        }
+
+        refreshRem() // 首次加载设置根字体模块
+
+        // 监听resize事件，设置根字体大小
+        window.addEventListener('resize', () => {
+            let tid;
+            if(tid){
+                window.clearTimeout(tid)
+            }
+            // window.location.reload();
+            tid = window.setTimeout(refreshRem, 300)
+        })
+    </script>
+</body>
+
+</html>
