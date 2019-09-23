@@ -2,9 +2,9 @@
 ## 方案分类
     主要分为两类解决方案自适应和响应式
 ### 共同点
-- 两者都是因为越来越多的 移动设备（ mobile, tablet device ）加入到互联网中来而出现的为移动设备提供更好的体验的技术。
-- 用技术来使网页适应从小到大（现在到超大）的不同分辨率的屏幕.
-- 都是为了解决同一张页面在不同设备分辨率上合理展示的技术。
+- 两者都是因为越来越多的 移动设备（ mobile, tablet device ）加入到互联网中来而出现的为移动设备提供更好的体验的技术
+- 用技术来使网页适应从小到大（现在到超大）的不同分辨率的屏幕
+- 都是为了解决同一张页面在不同设备分辨率上合理展示的技术
 
 ### 不同点
 - 响应式布局：针对不同的页面宽度，匹配不同的样式文件，展示不同的页面效果。根据页面宽度的连续变化，页面展示效果是非连续的。
@@ -53,7 +53,7 @@ window.addEventListener('resize', () => {
     vw : 1vw 等于视口宽度的1%
     vh : 1vh 等于视口高度的1%
 
-flexible.js给开发者的tips
+flexible.js作者给开发者的tips
 
     由于viewport单位得到众多浏览器的兼容，lib-flexible这个过渡方案已经可以放弃使用，不管是现在的版本还是以前的版本，都存有一定的问题。建议大家开始使用viewport来替代此方案。
 
@@ -101,7 +101,7 @@ $vm_base: 375;
 
 ### rem vm 对比
 |方案名称|易用性|浏览器兼容性|
-|--|--|--|--|
+|--|--|--|
 |rem|需要使用flexible.js|好|
 |vw|直接使用|较好|
   
@@ -109,18 +109,15 @@ $vm_base: 375;
 ## 响应式方案 
 通过css媒体查询(@media)，针对不同的页面宽度，匹配不同的样式，达到适配不同屏幕的效果。
 ### 优点
-- 针对折叠屏的宽度进行优化，不会影响到普通手机的代码展示
+- 针对折叠屏的宽度进行优化，不会影响到普通手机的展示效果，不用修改针对普通手机的css代码
+  
 
 ### 缺点
 - 对于每一个需要适配的折叠屏的模组，都要添加css适配代码
 - 随页面大小变化，展示效果是非连续的，也可能是不一致的
-  
-### 通过媒体查询的解决方案(参考bootstrap);
 
-    ![img](./assets/al01.png)
-
+### 使用
 针对折叠屏加上适配折叠屏宽度的样式，使用示例：
-### 
 ```css
 @media screen and (min-width: 600px){
         .masthead h1 {
@@ -128,12 +125,20 @@ $vm_base: 375;
     }
 }
 ```
+bootstrap 使用示例
+![img](./assets/al01.png)
+
+### 演示地址
+[bootstrap 中文网](https://www.bootcss.com/)
+
 ## 名词解释
 Peter-Paul Koch (江湖人称“PPK大神”)
 
 ## 参考
 1. [淘宝手机WEB商场](https://h5.m.taobao.com/?sprefer=sypc00#index)
-2. [使用Flexible实现手淘H5页面的终端适配](https://github.com/amfe/article/issues/17)
-3. [flexible.js 演示](http://huodong.m.taobao.com/act/yibo.html)
-4. [纯CSS3使用vw和vh视口单位实现自适应](http://caibaojian.com/vw-vh.html)
-5. [vw 布局示例](https://jdc.jd.com/demo/ting/vw_layout.html?utm_source=caibaojian.com)
+2. [Flexible.js GitHub](https://github.com/amfe/lib-flexible/tree/master)
+3. [使用Flexible实现手淘H5页面的终端适配](https://github.com/amfe/article/issues/17)
+4. [flexible.js 演示](http://huodong.m.taobao.com/act/yibo.html)
+5. [纯CSS3使用vw和vh视口单位实现自适应](http://caibaojian.com/vw-vh.html)
+6. [vw 布局示例](https://jdc.jd.com/demo/ting/vw_layout.html?utm_source=caibaojian.com)
+7. [bootstrap 中文网](https://www.bootcss.com/)
