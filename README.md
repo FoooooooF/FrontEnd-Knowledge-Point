@@ -18,6 +18,7 @@
 
 ## css
 1. [BFC、IFC、GFC 和 FFC](./css/BFC.md) 
+2. [font-size 显示效果对比](./css/font_size.md) 
 
 ## 浏览器内核
 1. [js 运行原理及 event loop](./kernel/event_loop.md)
