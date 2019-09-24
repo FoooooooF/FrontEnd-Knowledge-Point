@@ -1,16 +1,14 @@
-<!--
- * @Description: introduction iframe
- * @Author: hxl
- * @Date: 2019-08-09 11:26:10
- * @LastEditTime: 2019-08-10 11:12:49
- * @LastEditors: Please set LastEditors
- -->
 # iframe 的那些骚操作
-
+HTML内联框架元素(`<iframe>`) 表示嵌套的browsing context。它能够将另一个HTML页面嵌入到当前页面中。
 ## 基本用法
+- src
+>嵌套页面的URL地址。使用遵守同源策略的  'about:blank' 来嵌套空白页。
+- srcdoc HTML5 only
+>该属性值可以是HTML代码，这些代码会被渲染到iframe中，如果同时指定了src属性，srcdoc会覆盖src所指向的页面。该属性最好能与sandbox和seamless属性一起使用。
+- width
+>以CSS像素格式HTML5，或以像素格式HTML 4.01，或以百分比格式指定frame的宽度。
 
 ## 骚操作
-
 iframe原本的用法在现在看来是不合时宜的，问题太多了，不一一列举，但是它的其他功能却是不错的黑魔法，这里列举一些，想到了再更新：
 1. 用来实现长连接，在websocket不可用的时候作为一种替代，最开始由google发明。Comet：基于 HTTP 长连接的“服务器推”技术
 2. 跨域通信。JavaScript跨域总结与解决办法 ，类似的还有浏览器多页面通信，比如音乐播放器，用户如果打开了多个tab页，应该只有一个在播放。
@@ -89,5 +87,6 @@ module.exports = function(url, onSuccess, onFail){
 
 
 # reference
-[让动态的 iframe 内容高度自适应](https://www.cnblogs.com/imwtr/p/6050937.html)
-[iframe 知乎](https://www.zhihu.com/question/20653055/answer/35387821)
+1. [让动态的 iframe 内容高度自适应](https://www.cnblogs.com/imwtr/p/6050937.html)
+2. [iframe 知乎](https://www.zhihu.com/question/20653055/answer/35387821)
+3. [iframe MDN](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/iframe)

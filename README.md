@@ -15,6 +15,7 @@
 8. [无限无缝轮播图原理及实现](https://github.com/FoooooooF/handmade_javascript/tree/master/component/carousel)
 
 ## html
+1. [iframe 的那些骚操作](./html/iframe.md)
 
 ## css
 1. [BFC、IFC、GFC 和 FFC](./css/BFC.md) 
@@ -22,6 +23,7 @@
 
 ## 浏览器内核
 1. [js 运行原理及 event loop](./kernel/event_loop.md)
+2. [前端WEB路由控制](./kernel/router.md)
 
 ## react
 1. [react快速入门心得](./react/react1.md)
@@ -44,10 +46,11 @@
 ## markdown
 1. [markdown 使用方法](./markdown.md)
 
-## reference
+## 参考
 1. [前端面试题及答案汇总](https://muyiy.vip/question/)
 2. [前端面试题及答案汇总 (github地址)](https://github.com/Advanced-Frontend/Daily-Interview-Question/blob/master/datum/summary.md)
 3. [高级前端进阶](https://muyiy.vip/blog/)
 4. [高级前端进阶 (gtihub地址)](https://github.com/yygmind/blog)
 5. [jack's blog(a developer advocate for Google Chrome :star:)](https://jakearchibald.com/)
 6. [李银城 blog](https://www.rrfed.com/)
+7. [MDN 中文网](https://developer.mozilla.org/zh-CN/)
