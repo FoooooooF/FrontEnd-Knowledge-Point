@@ -69,5 +69,7 @@ Git 常用操作
 3. 属性开发完成后 开发人员先自行合并到dev分支进行测试.
 4. 测试通过后,开发人员自行合并到master分支进行发布. -->
 
+## 有效的git分支管理（拒绝混乱）
+
 ## reference
 [优雅的使用Git](https://www.zhihu.com/question/20866683/answer/720671116)

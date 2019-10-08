@@ -90,3 +90,4 @@ module.exports = function(url, onSuccess, onFail){
 1. [让动态的 iframe 内容高度自适应](https://www.cnblogs.com/imwtr/p/6050937.html)
 2. [iframe 知乎](https://www.zhihu.com/question/20653055/answer/35387821)
 3. [iframe MDN](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/iframe)
+4. [jquary load 方法](https://www.cnblogs.com/ostrich-sunshine/p/8026957.html)

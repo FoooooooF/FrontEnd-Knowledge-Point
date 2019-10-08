@@ -54,3 +54,4 @@
 5. [jack's blog(a developer advocate for Google Chrome :star:)](https://jakearchibald.com/)
 6. [李银城 blog](https://www.rrfed.com/)
 7. [MDN 中文网](https://developer.mozilla.org/zh-CN/)
+8. [冴羽的博客](https://github.com/mqyqingfeng/Blog)
