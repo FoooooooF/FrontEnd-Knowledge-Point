@@ -152,3 +152,6 @@ node_js:
 4. [webpack官网->创建 library](https://www.webpackjs.com/guides/author-libraries/)
 5. [使用Jest测试JavaScript (入门篇)](https://www.jianshu.com/p/70a4f026a0f1)
 6. [持续集成服务 Travis CI 教程](http://www.ruanyifeng.com/blog/2017/12/travis_ci_tutorial.html)
+7. [npm package.json属性详解](https://www.cnblogs.com/tzyy/p/5193811.html#_h1_13)
+8. [package.json 中的 Module 字段是干嘛的](https://segmentfault.com/a/1190000014286439)
+
