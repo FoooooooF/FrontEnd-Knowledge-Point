@@ -1,15 +1,18 @@
 # frontend with docker
 ![落魄的前端开发](./assets/frontend.png)
-<!-- ![jquery](./assets/jq.jpg) -->
-被一篇文章驱动着睡意尽消， [写给前端的Docker实战教程](https://zhuanlan.zhihu.com/p/83309276)。打开我的电脑，把我的win10家庭版升级到了专业版（不要钱）。开始我的docker之旅。
+
+被一篇文章锤的睡意全无， [写给前端的Docker实战教程](https://zhuanlan.zhihu.com/p/83309276)。打开我的电脑，把我的win10家庭版升级到了专业版（不要钱）。开始我的docker之旅。
+
 ## 需求
 1. 前端项目docker部署 CI/CD
 2. 快速搭建docker开发环境
 3. docker node微服务开发部署 
+
 ## 心得
 docker 是一个CS模式的服务
 1. 有客户端和服务端
 2. 客户端和服务端可以不在同一台主机上，但要求版本一直，可通过远程ssh连接，本地通过linux内部通信连接
+
 ## docker 常用指令
 
 ## reference
