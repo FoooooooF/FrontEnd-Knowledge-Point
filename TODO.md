@@ -20,6 +20,10 @@ SaaS：软件服务，Software-as-a-service
 8. [ ] 写一个字符串转义工具，主要失败单输入的特殊字符在传认识数据库前进行转义的工具，转义和反转义。参考juicer 的处理文章
 9. [ ] 什么东西都写一点，精通啥？可视化？ js基础/编译原理？ vue？ react？ 
 
+```
+ELECTRON_MIRROR=http://npm.taobao.org/mirrors/electron/ npm install -g electron
+```
+
 
 ## 参考
 [IaaS，PaaS，SaaS 的区别](http://www.ruanyifeng.com/blog/2017/07/iaas-paas-saas.html)
