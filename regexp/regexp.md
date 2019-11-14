@@ -74,7 +74,7 @@
 被正则表达式捕获(匹配)到的字符串会被暂存起来，其中，由分组捕获到的字符串会从1开始编号，我们可以引用这些字符串：
 ```js
 let s="12323232_123x456.gif";
-s.match(/_(\d+)x(\d+).(?:jpg|png|jpeg|gif)$/gi);
+s.match(/_(\d+)x(\d+)\.(?:jpg|png|jpeg|gif)$/gi);
 console.log(RegExp.$1);//123
 console.log(RegExp.$2);//456
 ```
