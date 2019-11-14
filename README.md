@@ -46,6 +46,9 @@
 ## 前端工程化
 1. [从零开发一个npm小工具](./project/npm.md)
 
+## 正则
+1. [正则表达式](./regexp/regexp.md)
+
 ## markdown
 1. [markdown 使用方法](./markdown.md)
 

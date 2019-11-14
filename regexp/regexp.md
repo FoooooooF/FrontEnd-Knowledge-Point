@@ -68,6 +68,25 @@
 |`m`|multiline的缩写，更改^和$的含义，使它们分别在任意一行的行首和行尾匹配，而不仅仅在整个字符串的开头和结尾匹配。(在此模式下,$的精确含意是:匹配\n之前的位置以及字符串结束前的位置.)|
 |`g`|global的缩写，进行全局匹配，即对字符串进行全文匹配，直到字符串遍历结束|
 
+## 分组
+### 捕获性分组
+
+被正则表达式捕获(匹配)到的字符串会被暂存起来，其中，由分组捕获到的字符串会从1开始编号，我们可以引用这些字符串：
+```js
+let s="12323232_123x456.gif";
+s.match(/_(\d+)x(\d+).(?:jpg|png|jpeg|gif)$/gi);
+console.log(RegExp.$1);//123
+console.log(RegExp.$2);//456
+```
+> 补充：$1,$2...$9是RegExp对象的静态属性。如果表达式模式中有括起来的子匹配，$1...$9表示第1个到第9个子匹配所捕获到的内容，如果有超过9个以上的子匹配，$1…$9属性分别对应最后的9个子匹配。
+
+### 非捕获性分组（?:）
+
+只是为了分组并不需要捕获 `$3` 为非捕获性分组。
+```js
+console.log(RegExp.$3) //""
+```
+
 # reference
 1. [regexper](https://regexper.com/)
 2. [learn regex](https://github.com/ziishaned/learn-regex/blob/master/translations/README-cn.md)
