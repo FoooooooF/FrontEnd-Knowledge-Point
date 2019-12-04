@@ -31,6 +31,7 @@
 ## vue
 1. [vue style scoped 原理](./vue/style_scoped.md)
 2. [vue自定义组件上使用v-model指令](./vue/v_model.md)
+3. [Vue 中是否有必要使用事件委托](./vue/eventDelegation.md)
 
 ## 网络
 1. [缓存浏览器缓存 服务端协商缓存和强制缓存](./network/cache.md)

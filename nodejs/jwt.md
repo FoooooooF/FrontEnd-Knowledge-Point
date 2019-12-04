@@ -1,7 +1,4 @@
-<!--
- * @Description:  introduction of jwt
- * @Author: hxl
- * @Date: 2019-08-10 11:14:18
- * @LastEditTime: 2019-08-10 11:14:46
- * @LastEditors: Please set LastEditors
- -->
+# JWT
+
+# 参考
+1.[jwt](https://ninghao.net/blog/2834?utm_source=wechat_session&utm_medium=social&utm_oi=9645]19233132179456)
