@@ -24,18 +24,29 @@ SaaS：软件服务，Software-as-a-service
 ELECTRON_MIRROR=http://npm.taobao.org/mirrors/electron/ npm install -g electron
 ```
 
-## 书籍
-- 鸟哥的linux私房菜
--  深入浅出nodejs
-- 算法（偏实践） 
-- 算法导论（偏原理）
-- 疯狂java讲义
-- Git权威指南
-- webkit技术内幕
-
+## 学习书籍
+### 专业类
+- [x] 深入浅出nodejs
+- [ ] 数据结构与算法分析(Mark Allen Weiss)
+- [ ] 算法导论（偏原理）
+- [ ] Head First Java
+- [ ] 鸟哥的linux私房菜
+- [ ] Git权威指南
+- [x] 疯狂java讲义
+- [ ] 算法（偏实践） 
+- [ ] Python编程（Python Crash Course） Eric Matthes
+- [ ] webkit技术内幕 朱永胜
+- [ ] 编译原理  （ Alfred V. Aho / Monica S.Lam / Ravi Sethi / Jeffrey D. Ullman）
+- [ ] 操作系统 Andrew S. Tanenbaum
+### 数学类
+- [ ] 离散数学
+- [ ] 线性代数
+- [ ] 数学之美
+- [ ] 计算机科学中的数学：信息与智能时代的必修课
 
 ## 参考
 1. [IaaS，PaaS，SaaS 的区别](http://www.ruanyifeng.com/blog/2017/07/iaas-paas-saas.html)
 2. [web前端工程师读书单](https://www.douban.com/doulist/2772859/)
 3. [Chromium Architecture](https://github.com/brave/browser-laptop/wiki/Chromium-Architecture)
 4. [前端博客（美团） 框架很大，没啥内容](https://borninsummer.com/Practice-in-Front-End-Engineering-and-Components-Development/part-3/)
+5. [webkit 技术内幕（作者：朱永胜博客）](https://blog.csdn.net/milado_nju)
