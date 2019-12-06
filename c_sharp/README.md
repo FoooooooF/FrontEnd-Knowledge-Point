@@ -40,9 +40,8 @@ ASP.NET 是用于生成基于Web的应用程序的内容丰富的编程框架。
 ## 参考
 1. [微软C# .net指南](https://docs.microsoft.com/en-us/dotnet/csharp/)
 2. [微软 .net指南](https://docs.microsoft.com/zh-cn/dotnet/)
-
 3. [微软C# .net指南 中文版](https://docs.microsoft.com/zh-cn/dotnet/csharp/)
-4. [ASP.NET Overview](https://docs.microsoft.com/zh-cn/aspnet/overview)
+4. [ASP.NET Overview 入门指南](https://docs.microsoft.com/zh-cn/aspnet/overview)
 5. [ASP.NET 框架](https://docs.microsoft.com/zh-cn/aspnet/web-forms/overview/getting-started/getting-started-with-aspnet-45-web-forms/create-the-project)
 6. [简析.NET Core 以及与 .NET Framework的关系(无图)](https://www.cnblogs.com/vipyoumay/p/5603928.html)
 7. [Introducing .NET Core](https://devblogs.microsoft.com/dotnet/introducing-net-core/)
