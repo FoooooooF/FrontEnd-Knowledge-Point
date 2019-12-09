@@ -25,7 +25,8 @@ ELECTRON_MIRROR=http://npm.taobao.org/mirrors/electron/ npm install -g electron
 ```
 
 ## 学习书籍
-### 专业类
+### 
+- [x] Javascript高级设计
 - [x] 深入浅出nodejs
 - [ ] 数据结构与算法分析(Mark Allen Weiss)
 - [ ] 算法导论（偏原理）
