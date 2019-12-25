@@ -27,11 +27,13 @@ C#是一个程序设计语言，仅仅是一个语言，是运行在.net CLR上�
 
 ASP.NET 是用于生成基于Web的应用程序的内容丰富的编程框架。
 
-## 概念理解(个人理解)：
+## 概念理解：
 - 泛型：类，接口，定义的是时候，并不知道实例化（new）的时候传入得参数是什么类型的，于是给一个<T>泛型；你想什么类型就是什么类型；  
   例如List， `new List<string>` `new List<int>`
-- 
-  
+
+
+## TCP socket接口
+[Socket接口原理及用C#语言实现](https://blog.csdn.net/faihung/article/details/70207249)
 
 
 
