@@ -73,3 +73,5 @@ Git 常用操作
 
 ## reference
 [优雅的使用Git](https://www.zhihu.com/question/20866683/answer/720671116)
+[.gitignore 规则写法](https://my.oschina.net/longyuan/blog/521098)
+[Git忽略提交规则](https://www.cnblogs.com/kevingrace/p/5690241.html)
