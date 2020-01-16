@@ -1,4 +1,10 @@
 # 网页图片加载优化
+
+img alt 属性可以让图片加载失败的情况下不至于显示破碎的图片
+![img](https://bitsofco.de/content/images/2016/02/Screen-Shot-2016-02-27-at-12-41-36.png)
+```
+<img src="http://bitsofco.de/broken.jpg" alt="Kanye Laughing">
+```
 >（六）图片在渲染前指定大小：因为img元素是内联元素，所以在加载图片后会改变宽高，严重的情况会导致整个页面重排，所以最好在渲染前就指定其大小，或者让其脱离文档流。
 
 根据[Google Page Speed](https://code.google.com/speed/page-speed/docs/rendering.html#SpecifyImageDimensions)，如果通过CSS或HTML指定维度并不重要，只要CSS定位到IMG标记本身而不是父元素：
@@ -12,3 +18,4 @@ Don’t use width and height specifications to scale images on the fly. If an im
 ## 参考
 1. [延迟加载图像–完整指南](https://imagekit.io/blog/lazy-loading-images-complete-guide/)
 2. [网站性能优化实战——从12.67s到1.06s的故事 :star:](https://juejin.im/post/5b6fa8c86fb9a0099910ac91)
+3. [样式破碎的图像](https://bitsofco.de/styling-broken-images/?utm_campaign=Issue-206&utm_medium=web&utm_source=CSS-Weekly)
