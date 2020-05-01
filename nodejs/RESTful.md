@@ -10,3 +10,4 @@
 1. [REST](https://www.zhihu.com/question/28557115/answer/48094438)
 2. [RESTful API 设计指南](http://www.ruanyifeng.com/blog/2014/05/restful_api.html)
 3. [RESTful API 设计规范](https://github.com/godruoyi/restful-api-specification)
+4. [apidoc 配置文档](https://apidocjs.com/#param-api-sample-request)

@@ -22,3 +22,5 @@
 5. [使用Sequelize 廖雪峰博客](https://www.liaoxuefeng.com/wiki/1022910821149312/1101571555324224)
 6. [Tedious](https://tediousjs.github.io/tedious/)
 7. [Sequelize 中文API文档](https://itbilu.com/nodejs/npm/VkYIaRPz-.html)
+8. [Express+TypeScript](https://www.jianshu.com/p/04e59249323b)
+8. [Express+TypeScript的新手项目](https://github.com/microsoft/TypeScript-Node-Starter)

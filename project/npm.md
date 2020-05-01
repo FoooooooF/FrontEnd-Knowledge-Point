@@ -145,6 +145,9 @@ node_js:
 ```
 这个例子的是让travis在node.js的0.6.x，0.6.1，0.5.11三个版本下对项目进行测试，并且需要mongodb的服务。
 
+## 私有仓库搭建
+[npm私有仓库搭建](https://www.cnblogs.com/zycbloger/p/sinopia.html)
+
 # 参考
 1. [querystring2json](https://github.com/FoooooooF/querystring2json)
 2. [发布自己的npm包](https://segmentfault.com/a/1190000006250554)
@@ -154,4 +157,5 @@ node_js:
 6. [持续集成服务 Travis CI 教程](http://www.ruanyifeng.com/blog/2017/12/travis_ci_tutorial.html)
 7. [npm package.json属性详解](https://www.cnblogs.com/tzyy/p/5193811.html#_h1_13)
 8. [package.json 中的 Module 字段是干嘛的](https://segmentfault.com/a/1190000014286439)
+9. [npm私有仓库搭建](https://www.cnblogs.com/zycbloger/p/sinopia.html)
 

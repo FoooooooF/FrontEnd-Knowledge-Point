@@ -51,3 +51,4 @@ ELECTRON_MIRROR=http://npm.taobao.org/mirrors/electron/ npm install -g electron
 3. [Chromium Architecture](https://github.com/brave/browser-laptop/wiki/Chromium-Architecture)
 4. [前端博客（美团） 框架很大，没啥内容](https://borninsummer.com/Practice-in-Front-End-Engineering-and-Components-Development/part-3/)
 5. [webkit 技术内幕（作者：朱永胜博客）](https://blog.csdn.net/milado_nju)
+6. [写给初中级前端的高级进阶指南（万字长文，路线明确）](https://zhuanlan.zhihu.com/p/119283701)
