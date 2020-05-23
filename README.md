@@ -62,3 +62,4 @@
 6. [李银城 blog](https://www.rrfed.com/)
 7. [MDN 中文网](https://developer.mozilla.org/zh-CN/)
 8. [冴羽的博客](https://github.com/mqyqingfeng/Blog)
+9. [webkit源码](http://trac.webkit.org/browser/branches/chromium/648/Source/WebCore/dom/ScriptExecutionContext.cpp?rev=77122#L301)

@@ -1,4 +1,5 @@
 # RESTful
+
 > URL定位资源，用HTTP动词（GET,POST,DELETE,DETC）描述操作
 
 ## 首先为什么要用RESTful结构呢？
