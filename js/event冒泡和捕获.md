@@ -170,3 +170,4 @@ object.attachEvent(event, function)
 
 # reference
 [JS中事件冒泡与捕获](https://segmentfault.com/a/1190000005654451)
+
