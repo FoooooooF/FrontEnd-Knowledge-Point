@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nextTick</title>
+</head>
+<body>
+    <script>
+    //列尝试使用原生的 Promise.then、MutationObserver 和 setImmediate，
+    //如果执行环境不支持，则会采用 setTimeout(fn, 0) 代替。
+    //会先执行同步代码,就包括watcherQueue的收集,主线程的watcher跑完后,压入异步操作执行.
+    //响应式原理 https://blog.csdn.net/qq_29582173/article/details/103012927
+    let a=[1,2,3];
+    setTimeout(()=>{
+        console.log(a)
+    },0);
+    a.push(4,5,6);
+    </script>
+</body>
+</html>

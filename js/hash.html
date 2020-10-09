@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hash</title>
+</head>
+<body>
+    <script>
+        //获取字符串的 哈希值 
+        function getHashCode(str,caseSensitive){
+            if(!caseSensitive){
+                str = str.toLowerCase();
+            }
+            var hash  =   1315423911,i,ch;
+            for (i = str.length - 1; i >= 0; i--) {
+                ch = str.charCodeAt(i);
+                hash ^= ((hash << 5) + ch + (hash >> 2));
+            }
+            return  (hash & 0x7FFFFFFF);
+        }
+        console.log(getHashCode("abc121222121212好的手动阀圣诞节会发生闪电发货师大会很大卡回复的哈开发奥斯卡海底阀手机的发生的合法发萨达哈放大发阿康师傅的"));
+        console.log(getHashCode("ABC121222121212",true));
+        console.log(getHashCode("ABC121222121212好的手动阀圣诞节会发生闪电发货师大会很大卡回复的哈开发奥斯卡海底阀手机的发生的合法发萨达哈放大发阿康师傅地"));
+    </script>
+</body>
+</html>

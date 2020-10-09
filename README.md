@@ -63,3 +63,5 @@
 7. [MDN 中文网](https://developer.mozilla.org/zh-CN/)
 8. [冴羽的博客](https://github.com/mqyqingfeng/Blog)
 9. [webkit源码](http://trac.webkit.org/browser/branches/chromium/648/Source/WebCore/dom/ScriptExecutionContext.cpp?rev=77122#L301)
+10. [移动开发IOS系统版本与Safari版本对应关系](https://blog.csdn.net/qq_33089275/article/details/98955139)
+11. [浏览器对ES5、ES6各种语法的支持情况](http://kangax.github.io/compat-table/es6/)

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>onerror</title>
+</head>
+    <img src="123.png" alt="">
+<body>
+    <script>
+        window.onerror = function (msg, url, lineNo, columnNo, error) {
+            var string = msg.toLowerCase();
+            var substring = "script error";
+            alert("123");
+            if (string.indexOf(substring) > -1) {
+                alert('Script Error: See Browser Console for Detail');
+            } else {
+                var message = [
+                    'Message: ' + msg,
+                    'URL: ' + url,
+                    'Line: ' + lineNo,
+                    'Column: ' + columnNo,
+                    'Error object: ' + JSON.stringify(error)
+                ].join(' - ');
+
+                alert(message);
+            }
+            // return false;
+        };
+    </script>
+    <script>
+        function a(){
+            let img=new Image();
+        let a=null;
+        img.src=a;
+        }
+        a();
+    </script>
+</body>
+
+</html>

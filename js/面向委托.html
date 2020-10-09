@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>面向委托</title>
+</head>
+<body>
+    <script>
+        let objA={
+            fun1(){
+                console.log("fun1")
+            },
+            fun2(){
+                console.log("fun2")
+            }
+        }
+        // prototype based language
+        // class based language
+        //设置对象的原型链
+        //1.使用Object.create
+        // let objB=Object.create(objA);
+        // objB.fun3=function(){
+        //     console.log("fun3")
+        // }
+        //2. 使用setPrototypeOf
+        let objB={
+            fun3(){
+                console.log("fun3")
+            }
+        }
+        Object.setPrototypeOf(objB,objA);
+        objB.fun1()
+        objB.fun2()
+        objB.fun3()
+    </script>
+</body>
+</html>
