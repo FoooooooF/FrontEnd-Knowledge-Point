@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <button id="btn">点击获取数据</button>
+    <script>
+    // 跨域只在客户端的浏览器才存在  webapp 不存在跨域问题的
+    // 1) 协议 2) 主机名 3）端口号
+    // iframe websocket jsonp cors http代理
+    // 没有跨域的时候 可以直接访问服务端接口
+
+    // get post简单请求  + header的设置 = 复杂请求 就会发送options
+    btn.addEventListener('click',()=>{
+        let xhr = new XMLHttpRequest();
+        // resful api get post delete put
+        xhr.open('GET','http://localhost:3000/user',true);
+         xhr.setRequestHeader('token','xxxx');
+         xhr.withCredentials = true; // 强制携带服务器设置的cookie
+        xhr.responseType = 'json'; // 设置服务器的响应类型
+        xhr.onload = function(){
+            // eval JSON.parse
+            console.log(xhr.response)
+        }
+        xhr.send('a=1&=2');
+    });
+    // 封装axios
+    </script>
+</body>
+</html>

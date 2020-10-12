@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        
+        // 单线程 主线程 setTimeout ajax click
+// 进程中包含着线程
+
+// 主线程 ui  js  如果js是多线程会出现哪些问题？
+// 默认代码执行的时候 会在执行栈中执行
+function a(){ // 执行上下文  作用域  js静态作用域
+    let x = 1;
+    function b(){ // 作用域链
+        console.log(x);
+        function c(){
+            debugger;
+        }
+        c();
+    }
+    b();
+}
+a()    
+    </script>
+</body>
+</html>

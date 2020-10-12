@@ -14,3 +14,5 @@ Content-Type首部的值不属于下列其中一个： application/x-www-form-ur
 简单来说，除了我们平时使用最多的 GET 和 POST 方法，以及最常使用的 Accept、Accept-Language、Content-Language 和 类型为 application/x-www-form-urlencoded、 multipart/form-data、 text/plain 的 Content-Type 请求头，其他基本都是非简单请求。对于这些非简单请求，浏览器会发出两个请求，第一个为 OPTIONS 遇见请求，遇见请求的响应检查通过后才会发出对资源的请求。
 ### 实现一个ajax
 https://www.jianshu.com/p/918c63045bc3
+
+1. [http请求发生了两次（options请求）](https://www.cnblogs.com/mamimi/p/10602722.html)

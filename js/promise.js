@@ -1,7 +1,17 @@
+// 源码地址: https://github.com/georgewing/promise/blob/master/promise.js
+// 珠峰代码: https://github.com/qietugou/web
+// Promise A+ 规范: https://promisesaplus.com/
 const FULFILLED = 'fulfilled';
 const REJECTED = 'rejected';
 const PENDING = 'pending';
 
+/**
+ * 成功的回调
+ * @param {Promise} promise2 链式调用返回的promise2 
+ * @param {Any} x promise1成功的回调
+ * @param {Function} resolve  promise2 成功的回调
+ * @param {Function} reject promise2 失败的回调
+ */
 const resolvePromise = (promise2, x, resolve, reject) => {
     let isCalled = false
     if (promise2 === x) {
@@ -22,6 +32,7 @@ const resolvePromise = (promise2, x, resolve, reject) => {
     if (((typeof x === 'obejct') && (x !== null)) || (typeof x === 'function')) {
         try {
             let then = x.then;
+            // x为一个promise
             if (typeof then === 'function') {
                 then.call(x, y => {
                     if (isCalled) return;

@@ -1,0 +1,14 @@
+{
+  "name": "zf-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "bin": {
+    "zf-server": "./bin/www.js"
+  },
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "commander": "^2.20.0",
+    "mime": "^2.4.4"
+  }
+}

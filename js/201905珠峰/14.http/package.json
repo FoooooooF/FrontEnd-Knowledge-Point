@@ -1,0 +1,10 @@
+{
+  "name": "14.http",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "http-proxy": "^1.17.0",
+    "uuid": "^3.3.2"
+  }
+}

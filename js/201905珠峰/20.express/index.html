@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Document</title>
+    </head>
+    <body>
+        <!-- 文件拖拽上传 -->
+        <div id="area" style="border:1px solid red;width:100px;height:100px"></div>
+        <img id="img" width="100px" height="100px">
+        <button id="btn">按钮</button>
+        <div id="progress">0</div>
+        <script>
+       let uploadFile
+        area.addEventListener('dragover',(e)=>{
+            e.preventDefault();
+        });
+        area.addEventListener('drop',function(e){
+            e.preventDefault();
+            // 要上传的文件
+            uploadFile = e.dataTransfer.files[0];
+            // fileReader
+            let reader = new FileReader();
+            reader.readAsDataURL(uploadFile);
+            reader.onload = function(e){
+               img.src =  e.target.result
+            }
+        });
+        btn.addEventListener('click',function(){
+            let xhr = new XMLHttpRequest();
+            xhr.open('post','/upload',true)
+            xhr.upload.onprogress = function(e){
+                progress.innerHTML =e.loaded / e.total * 100 +'%'
+            }
+            xhr.onload = function(e){
+                alert('成功')
+            }
+            let fd = new FormData();
+            fd.append('avatar',uploadFile)
+            xhr.send(fd);
+        })
+        </script>
+    </body>
+</html>

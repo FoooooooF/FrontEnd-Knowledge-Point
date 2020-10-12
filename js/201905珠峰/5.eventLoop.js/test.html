@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div id="container">
+
+    </div>
+    <script>
+        // let worker = new Worker('./worker.js')
+        // //postMessage onmessage
+        // worker.onmessage = function(e){
+        //     console.log(e.data);
+        // }
+        // console.log('ok');
+        // webworker 单独开启一条线程 （只能计算使用 并不能操作dom）
+        let channel = new MessageChannel();
+        let port1 = channel.port1;
+        let port2 = channel.port2;
+        port2.postMessage('hello');
+        port1.onmessage = function(e){
+            console.log(container.children);
+        }
+        // port1.addEventListener('message',function(e){
+        //    console.log(container.children);
+        // })
+        setTimeout(() => {
+            console.log('timeout')
+        }, 0);
+        // let mutationObserver = new MutationObserver(function(){
+        //     console.log(container.children);
+        // })
+        // mutationObserver.observe(container,{
+        //     childList:true
+        // })
+        for(let i = 0; i < 10;i++){
+            container.appendChild(document.createElement('p'));
+        }
+        for(let i = 0; i < 10;i++){
+            container.appendChild(document.createElement('p'));
+        }
+        for(let i = 0; i < 10;i++){
+            container.appendChild(document.createElement('p'));
+        }
+        
+    </script>
+</body>
+</html>
