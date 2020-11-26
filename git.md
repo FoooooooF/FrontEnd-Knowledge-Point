@@ -63,17 +63,12 @@ Git 常用操作
 然后我的rebase分支合并了master分支上的修改,但是我的master分支分支上,并没有rebase分支上的修改.
 于是我不得不在master分支上进行了一次merge操作.
 
-<!-- 最近才进一个公司,感觉公司的版本管理很有问题,
-1. 版本中有一个dev分支(开发分支)和master分支(发布分支);
-2. 每一个开发人员从master分出一个开发分支
-3. 属性开发完成后 开发人员先自行合并到dev分支进行测试.
-4. 测试通过后,开发人员自行合并到master分支进行发布. -->
 
 ## 有效的git分支管理（拒绝混乱）
 
-## reference
-[优雅的使用Git](https://www.zhihu.com/question/20866683/answer/720671116)
-[.gitignore 规则写法](https://my.oschina.net/longyuan/blog/521098)
-[Git忽略提交规则](https://www.cnblogs.com/kevingrace/p/5690241.html)
-[图解git命令(动图) :star:](https://mp.weixin.qq.com/s/d0gxbpMmDfewD3tQfV1ZoQ)
-[图解git命令(动图) 原英文版 :star:](https://dev.to/lydiahallie/cs-visualized-useful-git-commands-37p1)
+## 参考
+1. [优雅的使用Git](https://www.zhihu.com/question/20866683/answer/720671116)
+2. [.gitignore 规则写法](https://my.oschina.net/longyuan/blog/521098)
+3. [Git忽略提交规则](https://www.cnblogs.com/kevingrace/p/5690241.html)
+4. [图解git命令(动图) :star:](https://mp.weixin.qq.com/s/d0gxbpMmDfewD3tQfV1ZoQ)
+5. [图解git命令(动图) 原英文版 :star:](https://dev.to/lydiahallie/cs-visualized-useful-git-commands-37p1)
