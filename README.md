@@ -25,8 +25,9 @@
 1. [js 运行原理及 event loop](./js/kernel/event_loop.md)
 2. [前端WEB路由控制](./js/kernel/router.md)
 
-## React
-1. [react快速入门心得](./js/framework/react/react1.md)
+## Webapck
+1. [Webapck 核心原理](./webpack/webpack.md)
+<!-- 1. [react快速入门心得](./js/framework/react/react1.md) -->
 
 ## Vue
 1. [vue style scoped 原理](./js/framework/vue/style_scoped.md)
