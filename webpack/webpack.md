@@ -45,6 +45,6 @@ padding-bottom: 10px;
 - [webpack4 optimization配置splitChunks和namedChunks](https://juejin.im/post/5dcbad5df265da4cf4070741)
 
 ## 参考
-[webpack 博客 :star: ](https://survivejs.com/webpack/optimizing/separating-manifest/)
-[postcss-px-to-viewport px转vw](https://github.com/evrone/postcss-px-to-viewport/blob/HEAD/README_CN.md)
+1. [webpack 博客 :star: ](https://survivejs.com/webpack/optimizing/separating-manifest/)
+2. [postcss-px-to-viewport px转vw](https://github.com/evrone/postcss-px-to-viewport/blob/HEAD/README_CN.md)
 
