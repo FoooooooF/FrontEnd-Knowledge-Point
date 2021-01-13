@@ -64,7 +64,7 @@ Git 常用操作
 于是我不得不在master分支上进行了一次merge操作.
 
 
-## 有效的git分支管理（拒绝混乱）
+
 
 ## 参考
 1. [优雅的使用Git](https://www.zhihu.com/question/20866683/answer/720671116)
@@ -72,3 +72,4 @@ Git 常用操作
 3. [Git忽略提交规则](https://www.cnblogs.com/kevingrace/p/5690241.html)
 4. [图解git命令(动图) :star:](https://mp.weixin.qq.com/s/d0gxbpMmDfewD3tQfV1ZoQ)
 5. [图解git命令(动图) 原英文版 :star:](https://dev.to/lydiahallie/cs-visualized-useful-git-commands-37p1)
+6. [Git仓库分支(Branch)和标签(Tag)](https://blog.csdn.net/iprettydeveloper/article/details/53944125)
